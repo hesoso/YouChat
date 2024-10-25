@@ -26,5 +26,11 @@
  * ```
  */
 
+import { ipcRenderer } from 'electron'
+
+ipcRenderer.on('set-dark-mode', () => {
+    document.body.classList.add('dark-mode')
+})
+
 
 console.log('👋 This message is being logged by "renderer.js", included via Vite');

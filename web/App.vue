@@ -10,6 +10,18 @@ import HelloWorld from './components/HelloWorld.vue'
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
+    <div>
+      chrome-version：
+      <span id="chrome-version">1</span>
+    </div>
+    <div>
+      node-version：
+      <span id="node-version">1</span>
+    </div>
+    <div>
+      electron-version：
+      <span id="electron-version">1</span>
+    </div>
   </div>
   <HelloWorld msg="You Chat" />
 </template>
